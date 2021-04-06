@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TuyaCameraDemo/Pods-TuyaCameraDemo-frameworks.sh
+${PODS_ROOT}/TuyaCameraSDK/Carthage/Build/iOS/TuyaCameraSDK.framework
+${PODS_ROOT}/TuyaCameraSDK/Carthage/Build/iOS/TuyaCameraSDK.framework.dSYM
+${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework
+${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework.dSYM

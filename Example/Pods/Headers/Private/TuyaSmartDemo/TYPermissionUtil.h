@@ -1,0 +1,1 @@
+../../../../../TuyaSmartDemo/Classes/IPC/Utils/TYPermissionUtil.h

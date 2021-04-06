@@ -1,0 +1,1 @@
+../../../../../TuyaSmartDemo/Classes/IPC/Controller/TYDemoCameraPlaybackViewController.h

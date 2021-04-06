@@ -1,0 +1,377 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - DACircularProgress (2.3.1)
+  - dsBridge (3.0.203)
+  - FLAnimatedImage (1.0.12)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.5.0)
+  - MMKV (1.2.7):
+    - MMKVCore (~> 1.2.7)
+  - MMKVCore (1.2.7)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+  - Reachability (3.2)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - TuyaCameraSDK (3.22.0)
+  - TuyaCameraUIKit (3.21.0)
+  - TuyaSmartActivatorKit (3.22.1):
+    - TuyaSmartDeviceKit (>= 3.20.0)
+  - TuyaSmartBaseKit (3.22.2):
+    - TuyaSmartUtil (>= 3.20.0)
+    - YYModel
+  - TuyaSmartBizCore (3.22.0):
+    - TuyaSmartBaseKit
+    - TYFoundationKit
+    - TYModuleManager
+    - TYModuleServices
+    - TYOEMConfig
+    - TYSmartBusinessLibrary
+  - TuyaSmartCameraBase (4.22.0)
+  - TuyaSmartCameraKit (4.22.0):
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraM
+    - TuyaSmartDeviceCoreKit
+    - TYEncryptImage
+  - TuyaSmartCameraM (4.22.0):
+    - TuyaCameraSDK
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartDeviceCoreKit
+  - TuyaSmartCloudServiceBizBundle (3.22.0.1):
+    - dsBridge
+    - FLAnimatedImage
+    - lottie-ios
+    - Masonry
+    - MJRefresh
+    - MMKV
+    - Reachability
+    - SDWebImage
+    - SDWebImage/Core
+    - TuyaSmartBaseKit
+    - TuyaSmartBizCore
+    - TuyaSmartDeviceKit
+    - TuyaSmartUtil
+    - TYAlertView (= 1.0.2)
+    - TYAvatarEditKit (= 0.1.4)
+    - TYBaseDebugger (= 1.1.0)
+    - TYBlockKit (= 0.0.4)
+    - TYCameraCloudServiceModule (= 3.18.1)
+    - TYConfigHub (= 1.0.8.3)
+    - TYDomainQueryModule
+    - TYEncryptImage
+    - TYFoundationKit
+    - TYHybridContainer (= 1.3.5)
+    - TYKVStorageLibrary (= 0.5.1)
+    - TYLogMacro (= 0.1.0)
+    - TYModuleManager (= 2.10.2)
+    - TYModuleServices (= 2.14.0-tybizbundle-1.1)
+    - TYNavigationController
+    - TYOEMConfig (= 1.21.1-tybizbundle.3.22.0-2)
+    - TYPhotoBrowser (= 1.1.1)
+    - TYPopupViewController (= 0.2.0)
+    - TYProgressHUD (= 0.1.3)
+    - TYSmartActionDialog (= 0.3.5)
+    - TYSmartBusinessLibrary (= 3.22.0)
+    - TYSmartEventPredefined (= 1.2.70)
+    - TYUIKit
+    - TYVideoPlayer (= 2.0.1)
+    - YYModel
+  - TuyaSmartDemo/AddDevice (0.8.2):
+    - Masonry
+    - SDWebImage
+    - TuyaSmartActivatorKit
+    - TuyaSmartDemo/Base
+  - TuyaSmartDemo/Base (0.8.2):
+    - MBProgressHUD (~> 0.9.2)
+    - Reachability
+    - TuyaSmartBaseKit
+    - YYModel
+  - TuyaSmartDemo/DeviceList (0.8.2):
+    - SDWebImage
+    - TuyaSmartDemo/Base
+    - TuyaSmartDeviceKit
+  - TuyaSmartDemo/IPC (0.8.2):
+    - DACircularProgress
+    - TuyaCameraUIKit
+    - TuyaSmartCameraKit
+    - TuyaSmartDemo/Base
+    - TYEncryptImage
+  - TuyaSmartDemo/Login (0.8.2):
+    - TuyaSmartBaseKit
+    - TuyaSmartDemo/Base
+  - TuyaSmartDemo/UserInfo (0.8.2):
+    - TuyaSmartDemo/Base
+  - TuyaSmartDeviceCoreKit (3.22.4):
+    - TuyaSmartBaseKit (>= 3.22.0)
+    - TuyaSmartMQTTChannelKit (>= 3.20.0)
+    - TuyaSmartSocketChannelKit (>= 3.20.0)
+  - TuyaSmartDeviceKit (3.22.2):
+    - TuyaSmartBaseKit (>= 3.22.0)
+    - TuyaSmartDeviceCoreKit (>= 3.22.0)
+  - TuyaSmartLogger (1.1.0):
+    - CocoaLumberjack
+  - TuyaSmartMQTTChannelKit (3.20.0):
+    - MQTTClient (= 0.15.2)
+    - TuyaSmartBaseKit (>= 3.20.0)
+    - TuyaSmartQUIC
+  - TuyaSmartQUIC (1.1.1)
+  - TuyaSmartSocketChannelKit (3.20.1):
+    - CocoaAsyncSocket
+    - TuyaSmartBaseKit (>= 3.20.0)
+  - TuyaSmartUtil (3.21.1)
+  - TYAlertView (1.0.2):
+    - Masonry
+    - TYFoundationKit
+    - TYOEMConfig
+    - TYUIKit
+  - TYAvatarEditKit (0.1.4):
+    - Masonry
+    - TYFoundationKit
+    - TYUIKit
+  - TYBaseDebugger (1.1.0):
+    - Masonry
+    - TYOEMConfig
+    - TYUIKit
+  - TYBlockKit (0.0.4)
+  - TYCameraCloudServiceModule (3.18.1):
+    - TuyaSmartDeviceKit
+    - TYHybridContainer
+    - TYModuleManager
+    - TYModuleServices
+  - TYConfigHub (1.0.8.3):
+    - TuyaSmartBaseKit
+    - TuyaSmartUtil
+    - TYBlockKit
+    - TYFoundationKit
+    - TYModuleManager
+    - TYModuleServices
+    - TYSmartEventPredefined
+    - YYModel
+  - TYDomainQueryModule (0.2.0):
+    - TuyaSmartBaseKit
+    - TYFoundationKit
+    - TYKVStorageLibrary
+    - TYModuleManager
+    - TYModuleServices
+    - TYSmartBusinessLibrary
+  - TYEncryptImage (4.22.0)
+  - TYFoundationKit (1.14.0):
+    - Reachability
+  - TYHybridContainer (1.3.5):
+    - dsBridge (~> 3.0.202)
+    - TYBaseDebugger
+    - TYConfigHub
+    - TYKVStorageLibrary
+    - TYModuleManager
+    - TYModuleServices
+    - TYNavigationController
+    - TYPhotoBrowser
+    - TYSmartBusinessLibrary
+    - TYUIKit
+    - TYVideoPlayer
+  - TYKVStorageLibrary (0.5.1):
+    - MMKV
+    - TuyaSmartBaseKit
+  - TYLogMacro (0.1.0)
+  - TYModuleManager (2.10.2)
+  - TYModuleServices (2.14.0-tybizbundle-1.1)
+  - TYNavigationController (1.13.0):
+    - TYUIKit
+  - TYOEMConfig (1.21.1-tybizbundle.3.22.0-2):
+    - TuyaSmartBaseKit
+    - TYFoundationKit
+    - YYModel
+  - TYPhotoBrowser (1.1.1):
+    - SDWebImage
+    - TYEncryptImage
+    - TYUIKit
+  - TYPopupViewController (0.2.0)
+  - TYProgressHUD (0.1.3):
+    - Masonry
+    - TYFoundationKit
+    - TYOEMConfig
+    - TYUIKit
+  - TYSmartActionDialog (0.3.5):
+    - Masonry
+    - TYFoundationKit
+    - TYLogMacro
+    - TYUIKit
+  - TYSmartBusinessLibrary (3.22.0):
+    - FLAnimatedImage
+    - lottie-ios (~> 2.0)
+    - Masonry
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - TuyaSmartBaseKit
+    - TYAlertView
+    - TYAvatarEditKit
+    - TYBlockKit
+    - TYFoundationKit
+    - TYKVStorageLibrary
+    - TYLogMacro
+    - TYNavigationController
+    - TYOEMConfig
+    - TYPopupViewController
+    - TYProgressHUD
+    - TYSmartActionDialog
+    - TYUIKit
+  - TYSmartEventPredefined (1.2.70)
+  - TYUIKit (1.13.1):
+    - Masonry
+    - TYOEMConfig
+  - TYVideoPlayer (2.0.1):
+    - Masonry
+    - TYFoundationKit
+    - TYSmartBusinessLibrary
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - TuyaCameraUIKit
+  - TuyaSmartCloudServiceBizBundle
+  - TuyaSmartDemo/AddDevice (from `../`)
+  - TuyaSmartDemo/Base (from `../`)
+  - TuyaSmartDemo/DeviceList (from `../`)
+  - TuyaSmartDemo/IPC (from `../`)
+  - TuyaSmartDemo/Login (from `../`)
+  - TuyaSmartDemo/UserInfo (from `../`)
+  - TuyaSmartLogger
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - DACircularProgress
+    - FLAnimatedImage
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MMKV
+    - MMKVCore
+    - MQTTClient
+    - Reachability
+    - SDWebImage
+    - TuyaCameraSDK
+    - TuyaCameraUIKit
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraKit
+    - TuyaSmartCameraM
+    - TuyaSmartDeviceCoreKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartLogger
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartQUIC
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartUtil
+    - TYEncryptImage
+    - YYModel
+  https://github.com/TuyaInc/TuyaPublicSpecs.git:
+    - dsBridge
+    - TuyaSmartBizCore
+    - TuyaSmartCloudServiceBizBundle
+    - TYAlertView
+    - TYAvatarEditKit
+    - TYBaseDebugger
+    - TYBlockKit
+    - TYCameraCloudServiceModule
+    - TYConfigHub
+    - TYDomainQueryModule
+    - TYFoundationKit
+    - TYHybridContainer
+    - TYKVStorageLibrary
+    - TYLogMacro
+    - TYModuleManager
+    - TYModuleServices
+    - TYNavigationController
+    - TYOEMConfig
+    - TYPhotoBrowser
+    - TYPopupViewController
+    - TYProgressHUD
+    - TYSmartActionDialog
+    - TYSmartBusinessLibrary
+    - TYSmartEventPredefined
+    - TYUIKit
+    - TYVideoPlayer
+
+EXTERNAL SOURCES:
+  TuyaSmartDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  dsBridge: f7698ec8790017bec8be7764b17fbdbc90c3c4bb
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MMKV: 22e5136f7d00197bc0fc9694b7f71519f0d1ca12
+  MMKVCore: 607b7b05f2c2140056b5d338e45f2c14bf3f4232
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  TuyaCameraSDK: 80ab38116c33e5f3139ca06b1ed685a398d03f08
+  TuyaCameraUIKit: 9cd35fcd081dfca5d6c89ff2784a133f969a08f7
+  TuyaSmartActivatorKit: 161d56db2e68fd1fad66820af0bffc15e70f5ae0
+  TuyaSmartBaseKit: 34ecdf83e4204bcc61bf399f7faa8b25ec2e1d48
+  TuyaSmartBizCore: 3a8aacdb986a7b7a9b0e9ab97374b82e8b3e63bb
+  TuyaSmartCameraBase: 0c6ea4b08c07c0ffd37d35751875a9dcde347659
+  TuyaSmartCameraKit: 601f1cd3581414d89ceb1c854bfe4db9131e1055
+  TuyaSmartCameraM: 235d6baeab3d57cffab0316ababa7c3b39407811
+  TuyaSmartCloudServiceBizBundle: d8f4f9d6b729b1989586615d06314a2c420358a7
+  TuyaSmartDemo: e70f771a24ad5717b429279f81a14410605d0759
+  TuyaSmartDeviceCoreKit: 908aedc49bde250755116071ed9adf2dc7c87de2
+  TuyaSmartDeviceKit: c7801e3d1ae27822d5391e7fdc8c0d7eaa3deea9
+  TuyaSmartLogger: 325b55b983efa14b62a25aba718ee1b5e1469a86
+  TuyaSmartMQTTChannelKit: 096c40a5be0e3953211453e7c6e7ea621512e261
+  TuyaSmartQUIC: 5bb81563fedf5b739ac50a5abbf42ec807cfb64b
+  TuyaSmartSocketChannelKit: 094737c579ed90d3d4f9a9a58455aed57d2cd666
+  TuyaSmartUtil: e657ec568b2df6ea578554870962528c47ee200d
+  TYAlertView: ac74e22c131b3bd35fe4919c6b3aefe0e892edea
+  TYAvatarEditKit: 6953c3e3e8b5914c7ec505f3707d7f376733cfed
+  TYBaseDebugger: 5657011ea61fc3b0c68e34b437e2e60c49e81904
+  TYBlockKit: 74068939d7ce21d0d921937bd45ca490d212535c
+  TYCameraCloudServiceModule: 5dddbe1b4d5931d2c0d1abd45c3f5d8b71744fbc
+  TYConfigHub: cadf514086d480088912b566b4df6fd2140330f7
+  TYDomainQueryModule: cf12ac25847b258da497c77fabfb673ec580ff09
+  TYEncryptImage: b7dd13b66c9d54b8fc7ce68c6a04042c169784cf
+  TYFoundationKit: 937d7ef4a3161165ed045a6e2e940d8145d90fd3
+  TYHybridContainer: 69806a3cb9da59f6f74e0f1eb2f94eac10f8050b
+  TYKVStorageLibrary: 60e7228fdf0a5571ab21d1c123b89e1c76345444
+  TYLogMacro: ab4e48b7098c1b7bc263332d8357befbf39f47a2
+  TYModuleManager: f2cbc72b1face98b7200446edf07d5efc2d87f6c
+  TYModuleServices: 5bcd320b7c389d02eb363412baf18775b4ece97c
+  TYNavigationController: 22877c5937a303b2b0e99413e651288dba857e83
+  TYOEMConfig: fe7762644e89f471853837ae4e67a75d573535c3
+  TYPhotoBrowser: 2b42c4de0c144ab1ea15fe211f0e103a153c4b6f
+  TYPopupViewController: ab7112de80b174cbcc3e4db89e7eda151b6dc486
+  TYProgressHUD: 67f4ece5c234a43741ecfc3811955849afbe54cc
+  TYSmartActionDialog: af8c5e464dfe76c10d4f909f467a9426944736cb
+  TYSmartBusinessLibrary: d9fd2aea1f82d25823b9e45646cbc2392066f21c
+  TYSmartEventPredefined: ac6a310717873eeac52292f8c98531f6bb6a7ebc
+  TYUIKit: 1850af690d53d8f85854327248a93615886cddea
+  TYVideoPlayer: 170023c2ceb22af1fee424596bc7614932898fb6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 6c6e3ac25bbb6dac2c17a4a4b141ea8b4cd6e988
+
+COCOAPODS: 1.9.1
